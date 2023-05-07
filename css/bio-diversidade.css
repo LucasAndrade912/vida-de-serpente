@@ -1,6 +1,10 @@
 body {
-  background: url("../images/03.png") no-repeat;
+  background: url("../images/03.png");
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 h1 {
