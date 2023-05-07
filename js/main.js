@@ -1,15 +1,19 @@
 import { changeBackgroundLoop } from "./background-transition";
 import { getSnakes } from "./get-snakes";
 
+const pathsScripts = {
+  "/": changeBackgroundLoop,
+  "/index.html": changeBackgroundLoop,
+  "/bio-diversidade.html": async () => {
+    const snakes = await getSnakes();
+    console.log(snakes);
+  },
+};
+
 async function main() {
   const pathname = window.location.pathname;
 
-  if (pathname === "/") {
-    changeBackgroundLoop();
-  } else if (pathname === "/bio-diversidade.html") {
-    const snakes = await getSnakes();
-    console.log(snakes);
-  }
+  pathsScripts[pathname]();
 }
 
 main();
