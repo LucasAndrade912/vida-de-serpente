@@ -6,9 +6,7 @@ async function main() {
 
   if (pathname === "/") {
     changeBackgroundLoop();
-  }
-
-  if (pathname === "/bio-diversidade.html") {
+  } else if (pathname === "/bio-diversidade.html") {
     const snakes = await getSnakes();
     console.log(snakes);
   }
