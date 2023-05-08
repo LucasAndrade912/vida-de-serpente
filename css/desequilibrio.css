@@ -16,7 +16,7 @@ body {
 
 .div-title-des{
   color: white;
-  font-size: 20px;
+  font-size: 35px;
   position: center;
   margin-top: 10px;
   padding: 10px;
@@ -25,17 +25,17 @@ body {
   align-items: center;
 }
 
-
 .div-sub {
   color: white;
   justify-content: center;
   margin-top: 20px;
   background-color: #616161;
   position: center;
-  padding: 20px 20px;
-  width: 600px;
+  padding: 30px 30px;
+  width: 1000px;
   text-align: justify;
 }
+
 #sub-title {
   text-align: left;
 }
@@ -48,13 +48,13 @@ body {
   margin-right: 10px;
 }
 h2 {
-  font-size: 18px;
+  font-size: 30px;
   line-height: 1;
   font-weight: bold;
 }
 
 p {
-  font-size: 12px;
+  font-size: 20px;
   line-height: 1;
   margin-top: 20px;
   margin-block-start: 0.7em;
@@ -63,7 +63,7 @@ p {
 
 .div-video {
   margin-top: 20px;
-  height: 360px;
+  height: 597px;
   width: 100%;
   position: center;
 }
