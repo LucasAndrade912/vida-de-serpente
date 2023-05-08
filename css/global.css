@@ -80,5 +80,6 @@ a {
 #main-title {
   text-align: center;
   color: #ffffff;
-  font-size: 45px;
+  font-size: 65px;
+  width: 100%;
 }
