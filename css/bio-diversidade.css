@@ -63,3 +63,33 @@ select {
   background-color: #616161;
   clip-path: polygon(100% 0%, 0 0%, 50% 100%);
 }
+
+#snakes {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+#snakes .snake {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 260px;
+  padding: 20px 24px;
+  background-color: #fff;
+  color: #2c2c2c;
+}
+
+#snakes .snake img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+#snakes .snake h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
