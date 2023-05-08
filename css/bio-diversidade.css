@@ -45,7 +45,6 @@ select {
   padding: 0 1em 0 0;
   margin: 0;
   width: 100%;
-  font-family: inherit;
   font-size: inherit;
   cursor: inherit;
   line-height: inherit;
@@ -116,6 +115,17 @@ select {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  -webkit-box-shadow: 10px 10px 9px -2px rgba(0,0,0,0.61);
+  -moz-box-shadow: 10px 10px 9px -2px rgba(0,0,0,0.61);
+  box-shadow: 10px 10px 9px -2px rgba(0,0,0,0.61);
+  transition: all 0.150s linear;
+}
+
+.card:hover {
+  z-index: 1;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .card img {
@@ -128,6 +138,7 @@ select {
   font-size: 24px;
   font-weight: bold;
   margin-top: 20px;
+  color: #4d5c4f;
 }
 
 .card p {
