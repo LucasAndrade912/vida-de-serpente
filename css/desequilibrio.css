@@ -6,23 +6,19 @@ body {
   background-attachment: fixed;
   min-height: 100vh;
 }
-.container-des{
+.container-des {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
-.div-title-des{
-  color: white;
-  font-size: 35px;
-  position: center;
-  margin-top: 10px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#title-des {
+  margin-top: 8vh;
+  text-align: center;
+  color: #ffffff;
+  font-size: 65px;
+  width: 100%;
 }
 
 .div-sub {
@@ -31,11 +27,11 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 32px;
-  margin-top: 20px;
+  margin-top: 8vh;
   background-color: #4d5c4f;
-  -webkit-box-shadow: 10px 10px 9px -2px rgba(0,0,0,0.61);
-  -moz-box-shadow: 10px 10px 9px -2px rgba(0,0,0,0.61);
-  box-shadow: 10px 10px 9px -2px rgba(0,0,0,0.61);
+  -webkit-box-shadow: 10px 10px 9px -2px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 10px 10px 9px -2px rgba(0, 0, 0, 0.61);
+  box-shadow: 10px 10px 9px -2px rgba(0, 0, 0, 0.61);
   position: center;
   padding: 30px 30px;
   width: 1000px;
@@ -62,13 +58,14 @@ body {
   height: 100%;
   object-fit: cover;
 }
-h2 {
+
+.text h2 {
   font-size: 30px;
   line-height: 1;
   font-weight: bold;
 }
 
-p {
+.text p {
   font-size: 20px;
   line-height: 1;
 }
@@ -79,7 +76,55 @@ p {
   width: 100%;
   position: center;
 }
+
 iframe {
   width: 100%;
   height: 100%;
+}
+
+@media only screen and (max-width: 650px) {
+  .div-title-des {
+    width: 80vw;
+  }
+  #title-des {
+    font-size: 30pt;
+  }
+
+  .div-sub {
+    width: 80vw;
+    flex-direction: column;
+    margin-left: auto;
+    margin-top: auto;
+    padding: 0;
+    margin-top: 8vh;
+    gap: 12px;
+  }
+
+  .text h2 {
+    font-size: 16pt;
+    text-align: left;
+  }
+
+  .text p {
+    font-size: 12pt;
+    text-align: left;
+  }
+
+  .div-sub .img {
+    height: auto;
+    padding: 10px;
+  }
+
+  #image {
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+  }
+
+  .div-video {
+    height: auto;
+    width: 80vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
 }

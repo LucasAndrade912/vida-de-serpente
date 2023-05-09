@@ -27,6 +27,7 @@ body {
   color: white;
   font-size: 50pt;
 }
+
 .title-border {
   border: 1px solid;
 }
@@ -41,7 +42,7 @@ body {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
-  min-width: 55vw;
+  gap: 5vw;
 }
 
 .div-options div {
@@ -69,4 +70,30 @@ body {
 .bio-title,
 .deseq-title {
   color: white;
+}
+
+@media screen and (max-width: 830px) {
+  #main-title {
+    font-size: 25pt;
+  }
+
+  #sub-title {
+    font-size: 10pt;
+    text-align: center;
+  }
+
+  .div-options {
+    margin-top: 15vh;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+    width: 80vw;
+  }
+
+  .bio,
+  .deseq {
+    min-width: 80vw;
+    font-size: 15pt;
+    text-align: center;
+  }
 }

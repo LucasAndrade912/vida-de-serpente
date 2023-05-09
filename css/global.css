@@ -76,10 +76,18 @@ a {
 
 /* fim do MENU */
 
-/* inicio main */
-#main-title {
-  text-align: center;
-  color: #ffffff;
-  font-size: 65px;
-  width: 100%;
+@media only screen and (max-width: 650px) {
+  .contato {
+    font-size: 10pt;
+  }
+
+  .main_menu {
+    font-size: 10pt;
+    min-width: 100px;
+  }
+
+  .fa-whatsapp,
+  .fa-instagram {
+    font-size: 12pt;
+  }
 }

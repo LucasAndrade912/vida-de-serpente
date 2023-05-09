@@ -7,12 +7,16 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  margin-top: 112px;
+#bio-title {
+  margin-top: 8vh;
+  text-align: center;
+  color: #ffffff;
+  font-size: 65px;
+  width: 100%;
 }
 
 #filtros {
-  margin-top: 24px;
+  margin-top: 8vh;
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -76,8 +80,9 @@ select {
 }
 
 #snakes {
-  margin-top: 70px;
+  margin-top: 8vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 64px;
 }
@@ -115,10 +120,10 @@ select {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  -webkit-box-shadow: 10px 10px 9px -2px rgba(0,0,0,0.61);
-  -moz-box-shadow: 10px 10px 9px -2px rgba(0,0,0,0.61);
-  box-shadow: 10px 10px 9px -2px rgba(0,0,0,0.61);
-  transition: all 0.150s linear;
+  -webkit-box-shadow: 10px 10px 9px -2px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 10px 10px 9px -2px rgba(0, 0, 0, 0.61);
+  box-shadow: 10px 10px 9px -2px rgba(0, 0, 0, 0.61);
+  transition: all 0.15s linear;
 }
 
 .card:hover {
@@ -144,4 +149,31 @@ select {
 .card p {
   font-size: 16px;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 830px) {
+  #bio-title {
+    font-size: 30pt;
+    padding-top: 15vh;
+  }
+
+  #filtros {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+  }
+
+  .main-bio {
+    height: 90vh;
+  }
+
+  #snakes {
+    margin-top: 0;
+    margin-bottom: 5vh;
+  }
+
+  .card {
+    margin: 0;
+  }
 }
