@@ -1,7 +1,7 @@
 [
   {
     "nome": "Jibóia",
-    "imagem": "./images/jiboia.jpg",
+    "imagem": "/images/jiboia.jpg",
     "nome-cientifico": "Boa Constrictor",
     "tamanho": 4,
     "expectativa-de-vida": 20,
@@ -10,7 +10,7 @@
   },
   {
     "nome": "Coral Falsa",
-    "imagem": "",
+    "imagem": "/images/falsa-coral.jpg",
     "nome-cientifico": "",
     "tamanho": 0,
     "expectativa-de-vida": 0,
@@ -19,7 +19,7 @@
   },
   {
     "nome": "Jararaca",
-    "imagem": "",
+    "imagem": "/images/jararaca.jpg",
     "nome-cientifico": "Boa Constrictor",
     "tamanho": 0,
     "expectativa-de-vida": 0,
