@@ -1,20 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-family: var(--font-poppins);
-}
-
-/* MENU */
-
-body {
-  background-color: #4d5c4f;
-}
-
 nav {
   width: 100%;
   height: 10vh;
@@ -76,26 +59,6 @@ a {
 .main_menu a:hover {
   color: #4d5c4f;
 }
-
-.fa-whatsapp,
-.fa-instagram {
+.menu svg {
   font-size: 20pt;
-}
-
-/* fim do MENU */
-
-@media only screen and (max-width: 650px) {
-  .contato {
-    font-size: 10pt;
-  }
-
-  .main_menu {
-    font-size: 10pt;
-    min-width: 100px;
-  }
-
-  .fa-whatsapp,
-  .fa-instagram {
-    font-size: 12pt;
-  }
 }

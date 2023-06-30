@@ -1,4 +1,4 @@
-import './css/home.css';
+import "./css/home.css";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
             </a>
           </div>
           <div className="deseq">
-            <a href="desequilibrio" className="deseq-title">
+            <a href="/desequilibrio-ambiental" className="deseq-title">
               DESEQUILÍBRIO AMBIENTAL
             </a>
           </div>
