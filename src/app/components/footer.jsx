@@ -1,6 +1,6 @@
 import "../css/footer.css";
 
-export default async function header() {
+export default async function Footer() {
   return (
     <div className="footer">
       <p className="names">Jessye | Lucas | Raiza | Venilson</p>

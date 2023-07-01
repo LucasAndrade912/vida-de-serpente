@@ -1,9 +1,9 @@
 import "../css/header.css";
 import { FaEnvelope, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
-export default async function header() {
+export default async function Header() {
   return (
-    <div>
+    <header>
       <nav>
         <div class="contato">
           <a href="/contato">
@@ -32,6 +32,6 @@ export default async function header() {
           </li>
         </ul>
       </nav>
-    </div>
+    </header>
   );
 }
