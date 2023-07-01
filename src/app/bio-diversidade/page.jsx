@@ -1,5 +1,5 @@
 import { Card } from "./components/Card";
-import Title from "../components/title";
+import Title from "../components/Title";
 
 import "../css/bio-diversidade.css";
 import snakes from "../serpentes.json";

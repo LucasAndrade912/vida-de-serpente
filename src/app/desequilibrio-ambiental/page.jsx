@@ -1,6 +1,6 @@
 import "../css/desequilibrio.css";
-import Title from "../components/title";
-import Footer from "../components/footer";
+import Title from "../components/Title";
+import Footer from "../components/Footer";
 import ContainerInfo from "./components/ContainerInfo";
 
 export default async function Desequilibrio() {
