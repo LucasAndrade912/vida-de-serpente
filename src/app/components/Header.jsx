@@ -7,28 +7,28 @@ export default async function Header() {
   return (
     <header>
       <nav>
-        <div class="contato">
+        <div className="contato">
           <Link href="/contato">
             <FaEnvelope />
           </Link>
           <Link href="/contato">
-            <p class="fale-conosco">Fale conosco!</p>
+            <p className="fale-conosco">Fale conosco!</p>
           </Link>
           <div id="cont-linha"></div>
         </div>
-        <ul class="main_menu">
+        <ul className="main_menu">
           <li>
-            <Link class="menu" href="/">
+            <Link className="menu" href="/">
               HOME
             </Link>
           </li>
           <li>
-            <Link class="menu" href="https://api.whatsapp.com" target="_blank">
+            <Link className="menu" href="https://api.whatsapp.com" target="_blank">
               <FaWhatsapp />
             </Link>
           </li>
           <li>
-            <Link class="menu" href="https://www.instagram.com" target="_blank">
+            <Link className="menu" href="https://www.instagram.com" target="_blank">
               <FaInstagram />
             </Link>
           </li>
