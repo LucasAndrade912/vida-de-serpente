@@ -1,4 +1,5 @@
 import "./css/home.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,14 +13,14 @@ export default function Home() {
         </div>
         <div className="div-options">
           <div className="bio">
-            <a href="bio-diversidade">
+            <Link href="bio-diversidade">
               <p className="bio-title">BIODIVERSIDADE BRASILEIRA</p>
-            </a>
+            </Link>
           </div>
           <div className="deseq">
-            <a href="/desequilibrio-ambiental" className="deseq-title">
+            <Link href="/desequilibrio-ambiental" className="deseq-title">
               DESEQUILÍBRIO AMBIENTAL
-            </a>
+            </Link>
           </div>
         </div>
       </div>
