@@ -1,14 +1,14 @@
-import "../../css/container-info.css";
+import "@/app/css/container-info.css";
 import Image from "next/image";
 
-export default async function header() {
+export default async function ContainerInfo() {
   return (
     <div className="container">
       <div className="img">
         <Image
           width={400}
           height={400}
-          src="/images/Serpente02.jpg"
+          src="/images/serpente02.jpg"
           alt="serpente"
         />
       </div>

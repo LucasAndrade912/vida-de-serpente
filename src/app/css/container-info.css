@@ -1,5 +1,5 @@
 body {
-  background-image: url("../../../public/Images/serpente05.jpg");
+  background-image: url("/public/images/serpente05.jpg");
   background-size: 100%;
   background-attachment: fixed;
 }

@@ -1,13 +1,13 @@
-import Title from "../components/title";
-import Container from "./components/container-info";
 import "../css/desequilibrio.css";
+import Title from "../components/title";
 import Footer from "../components/footer";
+import ContainerInfo from "./components/ContainerInfo";
 
 export default async function Desequilibrio() {
   return (
     <>
       <Title text="DESEQUILIBRIO AMBIENTAL" />
-      <Container />
+      <ContainerInfo />
       <div className="video">
         <iframe
           width="560"
