@@ -1,4 +1,6 @@
 import "../css/header.css";
+
+import Link from "next/link";
 import { FaEnvelope, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default async function Header() {
@@ -6,29 +8,29 @@ export default async function Header() {
     <header>
       <nav>
         <div class="contato">
-          <a href="/contato">
+          <Link href="/contato">
             <FaEnvelope />
-          </a>
-          <a href="/contato">
+          </Link>
+          <Link href="/contato">
             <p class="fale-conosco">Fale conosco!</p>
-          </a>
+          </Link>
           <div id="cont-linha"></div>
         </div>
         <ul class="main_menu">
           <li>
-            <a class="menu" href="/">
+            <Link class="menu" href="/">
               HOME
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="menu" href="https://api.whatsapp.com" target="_blank">
+            <Link class="menu" href="https://api.whatsapp.com" target="_blank">
               <FaWhatsapp />
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="menu" href="https://www.instagram.com" target="_blank">
+            <Link class="menu" href="https://www.instagram.com" target="_blank">
               <FaInstagram />
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
