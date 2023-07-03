@@ -2,13 +2,19 @@ import "@/app/css/container-info.css";
 import Image from "next/image";
 
 export default async function ContainerInfo() {
+  const snakeId = Math.floor(Math.random() * 3 + 1)
+  console.log(snakeId)
+
+  const response = await fetch(`https://64a31096b45881cc0ae6140f.mockapi.io/snakes/${snakeId}`)
+  const data = await response.json()
+
   return (
     <div className="container">
       <div className="img">
         <Image
           width={400}
           height={400}
-          src="/images/serpente02.jpg"
+          src={data.snake_image}
           alt="serpente"
         />
       </div>
