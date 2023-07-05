@@ -1,12 +1,11 @@
-import { Card } from "./components/Card";
+import "../css/bio-diversidade.css";
+
+import { supabase } from "../lib/supabase";
+import Card from "./components/Card";
 import Title from "../components/Title";
 
-import "../css/bio-diversidade.css";
-import snakes from "../serpentes.json";
-
 export default async function Biodiversidade() {
-  // const response = await fetch('../serpentes.json');
-  // const snakes = await response.json();
+  const { data } = await supabase.from('Serpentes').select()
 
   return (
     <main>
@@ -34,7 +33,7 @@ export default async function Biodiversidade() {
       </div>
 
       <div id="snakes">
-        {snakes.map((snake) => {
+        {data.map((snake) => {
           return <Card nomeCobra={snake.nome} imagemCobra={snake.imagem} />;
         })}
       </div>

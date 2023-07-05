@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export function Card(props) {
+export default function Card(props) {
   return (
     <div className="card">
       <Image
