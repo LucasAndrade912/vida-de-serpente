@@ -10,9 +10,6 @@ export default function Contato() {
       </p>
       <FormularioContato/>    
       
-      <div className="btn">
-        <input type="submit" defaultValue="Enviar" className="btn-submit" />
-      </div>
     </div>
     </div>
   );
